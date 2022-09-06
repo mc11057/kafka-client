@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ModalComponent from "./ModalComponent";
 
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = "http://192.168.122.168:8080";
 
 const TransactionComponent = () => {
 
